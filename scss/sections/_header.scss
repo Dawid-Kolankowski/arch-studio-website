@@ -39,6 +39,7 @@
 
   &__route {
     display: none;
+
     @include size(tablet) {
       display: flex;
       align-items: center;
@@ -150,8 +151,7 @@
 
   &.sticky {
     position: fixed;
-    left: 0;
-    right: 0;
+    top: 0;
     @include size(tablet) {
       position: relative;
     }

@@ -391,8 +391,7 @@ h4 {
 }
 .header.sticky {
   position: fixed;
-  left: 0;
-  right: 0;
+  top: 0;
 }
 @media (min-width: 768px) {
   .header.sticky {
@@ -416,7 +415,8 @@ h4 {
 .portfolio {
   padding: 0 3.2rem;
   align-items: center;
-  margin-bottom: 72px;
+  margin-bottom: 7.2rem;
+  margin-top: 5.6rem;
   gap: 2.4rem;
 }
 @media (min-width: 768px) {
