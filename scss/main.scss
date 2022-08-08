@@ -2,6 +2,11 @@
 @import "./mixins.scss";
 @import "./global.scss";
 @import "./typography.scss";
+@import "./utils.scss";
 
 @import "./components/button.scss";
+
 @import "./sections/footer.scss";
+@import "./sections/_portfolio-card.scss";
+@import "./sections/_header.scss";
+@import "./pages/_portfolio.scss";
