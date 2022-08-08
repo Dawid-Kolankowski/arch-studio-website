@@ -11,7 +11,7 @@ h4 {
 }
 
 h1 {
-  visibility: hidden;
+  display: none;
   @include size(tablet) {
     font-weight: 700;
     font-size: 12rem;

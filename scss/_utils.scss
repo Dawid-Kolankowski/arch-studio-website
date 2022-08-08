@@ -1,9 +1,11 @@
 .container {
   width: 100%;
+  padding: 0 3.2rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   @include size(tablet) {
+    padding: 0;
     width: 57.3rem;
   }
   @include size(desktop) {
