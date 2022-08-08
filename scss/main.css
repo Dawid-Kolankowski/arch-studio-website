@@ -439,21 +439,27 @@ h4 {
 
 .about__leaders {
   display: flex;
+  margin-bottom: 11.1rem;
+}
+@media (min-width: 768px) {
+  .about__leaders {
+    margin-bottom: 23.9rem;
+  }
 }
 @media (min-width: 1200px) {
   .about__leaders {
     flex-direction: row;
+    margin-bottom: 15.9rem;
   }
 }
 .about__leaders_title {
   max-width: 23rem;
-  margin-bottom: 5.5rem;
+  margin-bottom: 5.6rem;
 }
 .about .leaders {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 11.1rem;
   row-gap: 7.9rem;
   max-width: 73rem;
 }
@@ -496,4 +502,82 @@ h4 {
   font-size: 1.8rem;
   line-height: 2.4rem;
   opacity: 0.75;
+}
+.about__heritage {
+  margin-bottom: 11.2rem;
+}
+@media (min-width: 768px) {
+  .about__heritage {
+    margin-bottom: 20.7rem;
+  }
+}
+@media (min-width: 1200px) {
+  .about__heritage {
+    margin-bottom: 20.1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+.about__heritage p {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #60636d;
+}
+.about__heritage br {
+  display: block;
+  content: "";
+  margin-top: 2.4rem;
+}
+@media (min-width: 1200px) {
+  .about .heritage {
+    margin-bottom: 1rem;
+  }
+}
+.about .heritage__header {
+  margin-bottom: 2.2rem;
+  max-width: 23rem;
+  position: relative;
+}
+.about .heritage__header:before {
+  content: "";
+  height: 1px;
+  width: 6.5rem;
+  position: absolute;
+  top: -6.8rem;
+  left: 0;
+  background-color: #c8ccd8;
+}
+@media (min-width: 768px) {
+  .about .heritage__header:before {
+    top: -4.9rem;
+  }
+}
+@media (min-width: 1200px) {
+  .about .heritage__header:before {
+    top: -8.1rem;
+  }
+}
+@media (min-width: 768px) {
+  .about .heritage__header {
+    margin-bottom: 6.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .about .heritage__header {
+    margin-bottom: 6.1rem;
+  }
+}
+.about .heritage__image {
+  width: 540px;
+  height: 568px;
+  width: auto;
+  margin-left: 12.4rem;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .about .heritage__image {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */

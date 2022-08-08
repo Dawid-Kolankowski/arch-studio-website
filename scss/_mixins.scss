@@ -9,3 +9,23 @@
     }
   }
 }
+
+@mixin heading__line($top, $top-tablet, $top-desktop) {
+  position: relative;
+
+  &:before {
+    content: "";
+    height: 1px;
+    width: 6.5rem;
+    position: absolute;
+    top: -$top;
+    left: 0;
+    background-color: $color-light-grey;
+    @include size(tablet) {
+      top: -$top-tablet;
+    }
+    @include size(desktop) {
+      top: -$top-desktop;
+    }
+  }
+}
