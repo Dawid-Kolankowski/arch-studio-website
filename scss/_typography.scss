@@ -13,6 +13,7 @@ h4 {
 h1 {
   display: none;
   @include size(tablet) {
+    display: block;
     font-weight: 700;
     font-size: 12rem;
     line-height: 20rem;
