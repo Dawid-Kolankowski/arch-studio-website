@@ -1,0 +1,54 @@
+.contact {
+  @include size(desktop) {
+    display: flex;
+    flex-direction: row;
+    column-gap: 13.7rem;
+  }
+
+  &__header {
+    @include heading__line(6.8rem, 4.9rem, 7.3rem);
+  }
+  &__office {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 35px;
+    color: $color-dark-grey;
+    margin-bottom: 1.4rem;
+  }
+  &__info {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: $color-dark-grey;
+  }
+  &__link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: $color-very-dark-blue;
+    margin-top: 4.3rem;
+    display: flex;
+    align-items: center;
+    svg {
+      margin-left: 2.4rem;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__content {
+    margin-top: 4rem;
+
+    @include size(tablet) {
+      margin-top: 4.2rem;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+    @include size(desktop) {
+      margin-top: 0;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+}
