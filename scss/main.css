@@ -827,4 +827,51 @@ h4 {
     margin: 20rem auto 16rem auto;
     width: 111rem;
   }
+}
+
+.featured__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.featured__header a {
+  display: none;
+}
+@media (min-width: 768px) {
+  .featured__header a {
+    display: flex;
+  }
+}
+.featured__button {
+  width: 31.1rem;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .featured__button {
+    display: none;
+  }
+}
+.featured__card_label {
+  display: none;
+  position: absolute;
+  top: 2.9rem;
+  right: 1.6rem;
+  font-weight: 700;
+  font-size: 25rem;
+  line-height: 20rem;
+  color: white;
+  opacity: 0.5;
+}
+@media (min-width: 768px) {
+  .featured__card_label {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .featured__card_label {
+    top: 4.5rem;
+    right: -1.6rem;
+  }
 }/*# sourceMappingURL=main.css.map */
