@@ -829,6 +829,14 @@ h4 {
   }
 }
 
+.featured {
+  margin-top: 7.3rem;
+}
+@media (min-width: 768px) {
+  .featured {
+    margin-top: 20rem;
+  }
+}
 .featured__header {
   display: flex;
   flex-direction: row;
@@ -874,4 +882,59 @@ h4 {
     top: 4.5rem;
     right: -1.6rem;
   }
+}
+
+.ideas {
+  position: relative;
+}
+.ideas img {
+  width: 100%;
+}
+.ideas .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+@media (min-width: 768px) {
+  .ideas {
+    margin: 0 auto;
+    display: flex;
+    width: 57.3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .ideas {
+    width: 111rem;
+  }
+}
+.ideas__text {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 3.2rem;
+}
+@media (min-width: 768px) {
+  .ideas__text {
+    padding-left: 5.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  .ideas__text {
+    padding-left: 16.8rem;
+  }
+}
+.ideas__title {
+  margin-bottom: 2.3rem;
 }/*# sourceMappingURL=main.css.map */
