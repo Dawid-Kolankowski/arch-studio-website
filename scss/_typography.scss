@@ -15,7 +15,7 @@ h1 {
   @include size(tablet) {
     display: block;
     font-weight: 700;
-    font-size: 12rem;
+    font-size: 15.35rem;
     line-height: 20rem;
     letter-spacing: -0.3rem;
   }
@@ -29,8 +29,8 @@ h1 {
 h2 {
   font-size: 4.8rem;
   line-height: 4.8rem;
-
   letter-spacing: -0.12rem;
+  font-weight: 700;
   @include size(tablet) {
     font-size: 9.6rem;
     line-height: 8rem;
