@@ -14,3 +14,10 @@ img {
   margin: 0;
   padding: 0;
 }
+
+body {
+  margin-top: 9.8rem;
+  @include size(tablet) {
+    margin-top: 0;
+  }
+}

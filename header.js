@@ -14,14 +14,3 @@ overlay.addEventListener("click", function () {
   header.classList.toggle("open");
   body.classList.toggle("no-scroll");
 });
-
-document.addEventListener("scroll", function (e) {
-  if (window.innerWidth < 768) {
-    if (window.scrollY > 120) {
-      header.classList.add("sticky");
-    }
-    if (window.scrollY < 10) {
-      header.classList.remove("sticky");
-    }
-  }
-});

@@ -16,6 +16,15 @@ img {
 }
 
 body {
+  margin-top: 9.8rem;
+}
+@media (min-width: 768px) {
+  body {
+    margin-top: 0;
+  }
+}
+
+body {
   font-family: "League Spartan", sans-serif;
 }
 
